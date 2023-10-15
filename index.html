@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./pages/index.css"/>
+  </head>
+  <body class="root">
+    <header class="header">
+      <div class="container header__container">
+        <a href="!#" class="logo">
+          <img src="images/logo.svg" alt="логотип" class="logo__img"/>
+        </a>
+
+        <form action="" class="search header__search">
+          <button class="search__button">
+            <img src="./images/search.svg" alt="" class="search__icon"/>
+          </button>
+            <input
+              type="search"
+              class="search__input"
+              placeholder="Найти..."
+            />
+        </form>
+
+        <div class="separator"></div>
+        <div class="horizontal-separator header__horizontal-separator"></div>
+        
+        <button type="button" class="profile-button header__profile-button">
+          <span class="profile-button__name">Константин</span>
+          <img src="./images/profile-img-min.jpeg" alt="фото пользователя" class="profile-button__photo">
+          <img src="./images/profile-icon.svg" alt="иконка профиля" class="profile-button__icon">
+        </button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="partners">
+        <div class="container partners__container">
+          <h1 class="section-title partners__section-title">Наши партнёры</h1>
+          
+          <ul class="partners__grid">
+            <li class="partner">
+              <img src="./images/partners/Google.svg" alt="логотип Google" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Mcdonalds.svg" alt="логотип Mcdonalds" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Apple.svg" alt="логотип Apple" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/BMW.svg" alt="логотип BMW" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Tnf.svg" alt="логотип Tnf" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/CocaCola.svg" alt="логотип CocaCola" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Nasa.svg" alt="логотип Nasa" class="partner__logo">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+
+  </body>
+</html>
